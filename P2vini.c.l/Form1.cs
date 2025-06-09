@@ -21,7 +21,8 @@ namespace P2vini.c.l
             }
             else
             {
-                MessageBox.Show("acesso negado");
+                
+                  MessageBox .Show("erro! acesso negado");
             }
         }
     }
