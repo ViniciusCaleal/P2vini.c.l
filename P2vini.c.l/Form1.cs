@@ -6,5 +6,26 @@ namespace P2vini.c.l
         {
             InitializeComponent();
         }
+
+        private void btnentrar_Click(object sender, EventArgs e)
+        {
+            string usuario = txtusuario.Text;
+            string senha = txtsenha.Text;
+            if(usuario == "ADMIN" && senha == "123")
+            {
+
+                formPRINC principal = new formPRINC();
+                principal.Show();
+                this.Hide();
+
+            }
+            else
+            {
+                MessageBox.Show("acesso negado");
+            }
+        }
     }
 }
+        
+    
+
