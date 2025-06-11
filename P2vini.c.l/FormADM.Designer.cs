@@ -1,6 +1,6 @@
 ﻿namespace P2vini.c.l
 {
-    partial class FormUsuario
+    partial class FormADM
     {
         /// <summary>
         /// Required designer variable.
@@ -29,56 +29,54 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            txtusuario = new TextBox();
-            txtsenha = new TextBox();
-            btncad = new Button();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
+            button1 = new Button();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(82, 9);
+            label1.Location = new Point(101, 16);
             label1.Name = "label1";
-            label1.Size = new Size(115, 15);
+            label1.Size = new Size(142, 15);
             label1.TabIndex = 0;
-            label1.Text = "Cadastro de usuario ";
-            label1.Click += label1_Click;
+            label1.Text = "CADASTRO DE USUARIOS";
             // 
-            // txtusuario
+            // textBox1
             // 
-            txtusuario.Location = new Point(12, 46);
-            txtusuario.Name = "txtusuario";
-            txtusuario.Size = new Size(254, 23);
-            txtusuario.TabIndex = 1;
+            textBox1.Location = new Point(12, 58);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(336, 23);
+            textBox1.TabIndex = 1;
             // 
-            // txtsenha
+            // textBox2
             // 
-            txtsenha.Location = new Point(12, 87);
-            txtsenha.Name = "txtsenha";
-            txtsenha.Size = new Size(254, 23);
-            txtsenha.TabIndex = 2;
+            textBox2.Location = new Point(12, 87);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(336, 23);
+            textBox2.TabIndex = 2;
             // 
-            // btncad
+            // button1
             // 
-            btncad.Location = new Point(97, 137);
-            btncad.Name = "btncad";
-            btncad.Size = new Size(84, 28);
-            btncad.TabIndex = 3;
-            btncad.Text = "Cadastrar";
-            btncad.UseVisualStyleBackColor = true;
-            btncad.Click += btncad_Click;
+            button1.Location = new Point(76, 139);
+            button1.Name = "button1";
+            button1.Size = new Size(184, 60);
+            button1.TabIndex = 3;
+            button1.Text = "Cadastrar Usuario";
+            button1.UseVisualStyleBackColor = true;
             // 
-            // FormUsuario
+            // FormADM
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(278, 190);
-            Controls.Add(btncad);
-            Controls.Add(txtsenha);
-            Controls.Add(txtusuario);
+            ClientSize = new Size(373, 241);
+            Controls.Add(button1);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
             Controls.Add(label1);
-            Name = "FormUsuario";
-            Text = "FormUsuario";
+            Name = "FormADM";
+            Text = "FormADM";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -86,8 +84,8 @@
         #endregion
 
         private Label label1;
-        private TextBox txtusuario;
-        private TextBox txtsenha;
-        private Button btncad;
+        private TextBox textBox1;
+        private TextBox textBox2;
+        private Button button1;
     }
 }

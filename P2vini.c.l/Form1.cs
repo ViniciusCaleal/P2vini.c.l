@@ -11,7 +11,7 @@ namespace P2vini.c.l
         {
             string usuario = txtusuario.Text;
             string senha = txtsenha.Text;
-            if(usuario == "ADMIN" && senha == "123")
+            if (usuario == "ADMIN" && senha == "123")
             {
 
                 formPRINC principal = new formPRINC();
