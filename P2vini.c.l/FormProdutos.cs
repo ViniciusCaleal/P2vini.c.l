@@ -16,5 +16,10 @@ namespace P2vini.c.l
         {
             InitializeComponent();
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

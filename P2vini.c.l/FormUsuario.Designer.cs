@@ -32,6 +32,13 @@
             txtusuario = new TextBox();
             txtsenha = new TextBox();
             btncad = new Button();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            button1 = new Button();
+            button2 = new Button();
+            dataGridView1 = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -68,17 +75,77 @@
             btncad.UseVisualStyleBackColor = true;
             btncad.Click += btncad_Click;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(11, 25);
+            label2.Name = "label2";
+            label2.Size = new Size(38, 15);
+            label2.TabIndex = 4;
+            label2.Text = "label2";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(12, 71);
+            label3.Name = "label3";
+            label3.Size = new Size(38, 15);
+            label3.TabIndex = 5;
+            label3.Text = "label3";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(388, 25);
+            label4.Name = "label4";
+            label4.Size = new Size(38, 15);
+            label4.TabIndex = 6;
+            label4.Text = "label4";
+            // 
+            // button1
+            // 
+            button1.Location = new Point(388, 196);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 7;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(506, 196);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 8;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(389, 52);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.Size = new Size(229, 134);
+            dataGridView1.TabIndex = 9;
+            // 
             // FormUsuario
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(278, 190);
+            ClientSize = new Size(668, 300);
+            Controls.Add(dataGridView1);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
             Controls.Add(btncad);
             Controls.Add(txtsenha);
             Controls.Add(txtusuario);
             Controls.Add(label1);
             Name = "FormUsuario";
             Text = "FormUsuario";
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -89,5 +156,11 @@
         private TextBox txtusuario;
         private TextBox txtsenha;
         private Button btncad;
+        private Label label2;
+        private Label label3;
+        private Label label4;
+        private Button button1;
+        private Button button2;
+        private DataGridView dataGridView1;
     }
 }
